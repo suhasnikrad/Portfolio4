@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Web Aplication</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        header{
+            border: 1px solid black;
+            box-shadow: 2px 2px 2px gray;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .title{
+            font-weight: bold;
+            font-family: Arial;
+            font-size: 22px;
+        }
+        .nav-bar{
+            display: flex;
+        }
+        .nav-bar div{
+            margin-right: 30px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .banner{
+            margin-top: 5px;
+            box-shadow: 2px 2px 2px gray;
+            border: 1px solid gray;
+            background-image: url("./public/Images/Designer.PNG");
+            height: 250px;
+        }
+        .side-pannal{
+            font-size: 25px;
+            font-family: Arial;
+            text-align: left;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title">
+            PORTFOLIO
+        </div>
+        <div class="nav-bar">
+            <div>Home</div>
+            <div>About</div>
+            <div>Services</div>
+            <div>My Projects</div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="side-pannal">
+        <h1>I am Web Designer.</h1>
+        <p>Check My Project.</p>
+        <button class="btn btn-info">Sign in</button>
+        <button class="btn btn-warning">Register </button>
+    </div>
+    </div>
+</body>
+</html>
